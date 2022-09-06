@@ -18,14 +18,8 @@ def BinarySearch(nums, target):
 
 
 
-
-
-
-
-
 if __name__=='__main__':
     print(BinarySearch([-1,0,3,5,9,12], 9))
 
 
-#the problem solution correct I've plug in both Example from LeetCode an
-#arrived at the answers.
+#the problem solution is correct I've plug in both Example 1 and 2 from LeetCode an arrived at the same results.
