@@ -1,20 +1,19 @@
 import math
 
 
-
 def minEatingSpeed(piles, h):
- left = 1
- right = max(piles)
+    left = 1
+    right = max(piles)
 
- while left < right:
-    mid = (left + right) // 2
+    while left < right:
+        mid = (left + right) // 2
 
-    if not self.can_eat(piles, mid, h):
-        left = mid + 1
-    else:
-        right = mid
+        if not can_eat(piles, mid, h):
+            left = mid + 1
+        else:
+            right = mid
 
- return left
+    return left
 
 def can_eat(self, piles, speed, h):
     hours = 0
