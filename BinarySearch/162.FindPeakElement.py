@@ -15,7 +15,8 @@ def  FindPeakElement(nums):
     return left
 
 
-
+if __name__ == '__main__':
+    print(FindPeakElement([1,2,1,3,5,6,4]))
 
 
 
