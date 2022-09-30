@@ -18,4 +18,6 @@ def maximumSubarray(nums):
 
 
 if __name__ == '__main__':
-    print(maximumSubarray())
+    print(maximumSubarray([-2,1,-3,4,-1,2,1,-5,4]))
+    print(maximumSubarray([1]))
+    print(maximumSubarray([5,4,-1,7,8]))
