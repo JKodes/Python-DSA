@@ -29,3 +29,7 @@ def SearchInRotatedArray(nums, target):
 
 
 
+if __name__ == '__main__':
+    print(SearchInRotatedArray([4,5,6,7,0,1,2], 0))
+    print(SearchInRotatedArray([4,5,6,7,0,1,2], 3))
+    print(SearchInRotatedArray([1], 0))
