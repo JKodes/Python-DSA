@@ -12,3 +12,7 @@
                 right = mid - 1
             else:
                 return mid
+
+
+if __name__ == '__main__':
+    print()
