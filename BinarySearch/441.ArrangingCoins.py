@@ -1,5 +1,5 @@
 def arrangingcoins(n):
-    left =1
+    left = 1
     right = n
     res = 0
         
@@ -15,6 +15,6 @@ def arrangingcoins(n):
     
 
 if __name__ == '__main__':
-    print(arrangingcoins(3)
+    print(arrangingcoins(3))
 
     
