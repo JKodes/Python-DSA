@@ -15,6 +15,6 @@ def arrangingcoins(n):
     
 
 if __name__ == '__main__':
-    print(arrangingcoins(4))
+    print(arrangingcoins(3)
 
     
