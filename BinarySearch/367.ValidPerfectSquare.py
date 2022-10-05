@@ -12,3 +12,6 @@ def validperfectsquare(num):
         else:
             left = mid + 1
     return False
+
+if __name__ == '__main__':
+    print(validperfectsquare(8))
