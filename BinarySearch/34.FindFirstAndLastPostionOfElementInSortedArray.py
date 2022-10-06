@@ -9,4 +9,15 @@ def DoubleBinarySearch(self, nums, target, left_most):
             right = mid -1
         elif nums[mid] < target:
             left = mid + 1
+        else:
+            i = mid
+            if left_most:
+                right = mid - 1
+            else:
+                left = mid + 1
+
+    
+
+
+
         
