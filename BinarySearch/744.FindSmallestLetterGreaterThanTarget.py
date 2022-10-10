@@ -1,4 +1,6 @@
-def FindSmallestLetterGreaterThanTarget(letters):
+def FindSmallestLetterGreaterThanTarget(letters, target):
+
+    if target < letters[left] or 
     left = 0
     right = len(letters)
 
@@ -10,4 +12,6 @@ def FindSmallestLetterGreaterThanTarget(letters):
             right = mid - 1
         else:
             left = mid + 1
+
+    return letters[left]
 
