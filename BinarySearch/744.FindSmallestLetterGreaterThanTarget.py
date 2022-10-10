@@ -1,6 +1,7 @@
 def FindSmallestLetterGreaterThanTarget(letters, target):
 
-    if target < letters[left] or 
+    if (target < letters[left] or target >= letters[right]):
+        return letters[left]
     left = 0
     right = len(letters)
 
