@@ -1,0 +1,6 @@
+def BaseballGame(ops):
+    stack = []
+
+            
+
+
