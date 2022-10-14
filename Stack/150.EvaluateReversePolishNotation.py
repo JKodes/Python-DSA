@@ -14,4 +14,5 @@ def EvaluateReversePolishNotation(tokens):
             stack.append(int(y / x))
     return stack[0]
 
-
+if __name__ == '__main__':
+    print(EvaluateReversePolishNotation(["2","1","+","3","*"]))
