@@ -17,7 +17,7 @@ class Stack(object):
         return self.stack[len(self.stack)-1]
 
     def getMin(self):
-        return self.min_stack[-1]
+        return self.min_stack[len(self.stack)-1]
 
     
 
