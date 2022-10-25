@@ -6,3 +6,7 @@ def containduplicates(nums):
             return True
         hashset.add(num)
     return False
+
+if __name__ == '__main__':
+    print(containduplicates([1,2,3,1]))
+    print(containduplicates([1,2,3,4]))
