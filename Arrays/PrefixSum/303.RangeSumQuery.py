@@ -8,7 +8,7 @@ class Prefix:
 
     def rangeSum(self, right, left):
         preRight = self.prefix[right]
-        preLeft = self.prefix[left] if left > 0 else 0
+        preLeft = self.prefix[left - 1] if left > 0 else 0
         return (preRight - preLeft)
         
 
