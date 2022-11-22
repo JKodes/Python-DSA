@@ -1,4 +1,10 @@
 def searchMatrix(matrix, target):
+    ROWS = len(matrix)
+    COLS = len(matrix[0])
+
+
+    top_row = 0
+    bottom_row = ROWS - 1
 
 
 
