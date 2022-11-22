@@ -18,7 +18,20 @@ def searchMatrix(matrix, target):
 
     if not(top_row <= bottom_row):
         return False
-    
+    row = (top_row + bottom_row) // 2
+    left = 0
+    right = COLS - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+
+        if target > matrix[row][mid]:
+            left = mid + 1
+        elif target < matrix[row][mid]:
+            right = mid - 1
+        else:
+            return True
+    return False
 
 
 
@@ -34,6 +47,6 @@ def searchMatrix(matrix, target):
 
 
 if __name__ == '__main__':
-    print(searchMatrix(matrix, target))
+    print(searchMatrix([[1,3,5,7],[10,11,16,20],[23,30,34,60]], 3))
 
 
