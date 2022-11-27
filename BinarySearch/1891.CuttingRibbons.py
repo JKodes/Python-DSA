@@ -12,7 +12,15 @@ def CuttingRibbons(ribbons, k):
             right = mid - 1
     return right 
 
-def can_cut(self, ribbons, k, length):
+def can_cut(ribbons, k, length):
+    cut = 0
+
+    for ribbon in ribbons:
+        cut += ribbon/length
+    
+    return cut >= k
+
+
     
 
 
