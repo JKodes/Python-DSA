@@ -10,6 +10,10 @@ def CuttingRibbons(ribbons, k):
             left = mid + 1
         else:
             right = mid - 1
+    return right 
+
+def can_cut(self, ribbons, k, length):
+    
 
 
 
