@@ -4,7 +4,7 @@ def CuttingRibbons(ribbons, k):
 
 
     while left <= right:
-        mid = (left + right)// 2
+        mid = (left + right) // 2
 
         if can_cut(ribbons, k, mid):
             left = mid + 1
@@ -19,6 +19,10 @@ def can_cut(ribbons, k, length):
         cut += ribbon/length
     
     return cut >= k
+
+
+if __name__ == '__main__':
+    CuttingRibbons([9,7,5],  3)
 
 
     
