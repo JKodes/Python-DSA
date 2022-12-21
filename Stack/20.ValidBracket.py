@@ -10,20 +10,12 @@ def ValidBracket(brackets):
                 return False
         else:
             stack.append(bracket)
+
+    return True if not stack else False
     
 
 
 
 
-
-
-
-
-
-
-
-
-
-
 if __name__ == '__main__':
-    def(brackets ={ } )
+    print(ValidBracket(brackets = "()[]" ))
