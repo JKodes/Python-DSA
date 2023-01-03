@@ -1,4 +1,6 @@
-def DailyTemperatures(tempertures):
+def DailyTemperatures(temperatures):
+    stack = []
+    res = [0]  * len(temperatures)
 
 
 
