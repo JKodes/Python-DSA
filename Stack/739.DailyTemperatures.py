@@ -9,7 +9,7 @@ def DailyTemperatures(temperatures):
 
             res[prev_day] = cur_day - prev_day
             
-            stack.append((cur_day, cur_temp))
+        stack.append((cur_day, cur_temp))
 
     return res
 
